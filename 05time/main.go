@@ -19,4 +19,6 @@ func main() {
 
 	fmt.Println(nextHour, tomorrow)
 	fmt.Println(presentTime.Unix())
+
+	fmt.Println(&tomorrow)
 }
