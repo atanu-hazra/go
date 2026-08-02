@@ -37,7 +37,19 @@ func basicConversions() {
 }
 
 func conversions() {
+	// Explicit COnversion
+	age := 24
+	height := 5.11
 
+	fmt.Println("sum", float64(age) + height)
+
+	fmt.Println(int(height))
+
+	strNum := "54"
+
+	num, _ := strconv.Atoi(strNum)
+
+	fmt.Println(num)
 }
 
 
